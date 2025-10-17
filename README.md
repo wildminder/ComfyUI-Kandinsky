@@ -86,24 +86,23 @@ The `Kandinsky 5 Loader` node uses the config name to identify the correct check
 
 | Model                               | Config Name              | Duration | Hugging Face Link |
 |:------------------------------------|:-------------------------|:--------:|:------------------|
-| Kandinsky 5.0 T2V Lite SFT 5s       | `config_5s_sft.yaml`     | 5s       |🤗 [HF](https://huggingface.co/ai-forever/kandinsky5lite_t2v_sft_5s) |
-| Kandinsky 5.0 T2V Lite SFT 10s      | `config_10s_sft.yaml`    | 10s      |🤗 [HF](https://huggingface.co/ai-forever/kandinsky5lite_t2v_sft_10s) |
-| Kandinsky 5.0 T2V Lite pretrain 5s  | `config_5s_pretrain.yaml`| 5s       |🤗 [HF](https://huggingface.co/ai-forever/kandinsky5lite_t2v_pretrain_5s) |
-| Kandinsky 5.0 T2V Lite pretrain 10s | `config_10s_pretrain.yaml`| 10s      |🤗 [HF](https://huggingface.co/ai-forever/kandinsky5lite_t2v_pretrain_10s) |
-| Kandinsky 5.0 T2V Lite no-CFG 5s    | `config_5s_nocfg.yaml`   | 5s       |🤗 [HF](https://huggingface.co/ai-forever/kandinsky5lite_t2v_nocfg_5s) |
-| Kandinsky 5.0 T2V Lite no-CFG 10s   | `config_10s_nocfg.yaml`  | 10s      |🤗 [HF](https://huggingface.co/ai-forever/kandinsky5lite_t2v_nocfg_10s) |
-| Kandinsky 5.0 T2V Lite distill 5s   | `config_5s_distil.yaml`  | 5s       |🤗 [HF](https://huggingface.co/ai-forever/kandinsky5lite_t2v_distilled16steps_5s) |
-| Kandinsky 5.0 T2V Lite distill 10s  | `config_10s_distil.yaml` | 10s      |🤗 [HF](https://huggingface.co/ai-forever/kandinsky5lite_t2v_distilled16steps_10s) |
+| Kandinsky 5.0 T2V Lite SFT 5s       | `config_5s_sft.yaml`     | 5s       |🤗 [HF](https://huggingface.co/ai-forever/Kandinsky-5.0-T2V-Lite-sft-5s/tree/main/model) |
+| Kandinsky 5.0 T2V Lite SFT 10s      | `config_10s_sft.yaml`    | 10s      |🤗 [HF](https://huggingface.co/ai-forever/Kandinsky-5.0-T2V-Lite-sft-10s/tree/main/model) |
+| Kandinsky 5.0 T2V Lite pretrain 5s  | `config_5s_pretrain.yaml`| 5s       |🤗 [HF](https://huggingface.co/ai-forever/Kandinsky-5.0-T2V-Lite-pretrain-5s/tree/main/model) |
+| Kandinsky 5.0 T2V Lite pretrain 10s | `config_10s_pretrain.yaml`| 10s      |🤗 [HF](https://huggingface.co/ai-forever/Kandinsky-5.0-T2V-Lite-pretrain-10s/tree/main/model) |
+| Kandinsky 5.0 T2V Lite no-CFG 5s    | `config_5s_nocfg.yaml`   | 5s       |🤗 [HF](https://huggingface.co/ai-forever/Kandinsky-5.0-T2V-Lite-nocfg-5s/tree/main/model) |
+| Kandinsky 5.0 T2V Lite no-CFG 10s   | `config_10s_nocfg.yaml`  | 10s      |🤗 [HF](https://huggingface.co/ai-forever/Kandinsky-5.0-T2V-Lite-nocfg-10s/tree/main/model) |
+| Kandinsky 5.0 T2V Lite distill 5s   | `config_5s_distil.yaml`  | 5s       |🤗 [HF](https://huggingface.co/ai-forever/Kandinsky-5.0-T2V-Lite-distilled16steps-5s/tree/main/model) |
+| Kandinsky 5.0 T2V Lite distill 10s  | `config_10s_distil.yaml` | 10s      |🤗 [HF](https://huggingface.co/ai-forever/Kandinsky-5.0-T2V-Lite-distilled16steps-10s/tree/main/model) |
 
 ### Required Dependency Models
 These are common models used in many ComfyUI workflows and are required for the Kandinsky.
 
 | Model                               | Purpose                     | Hugging Face Link |
 |:------------------------------------|:----------------------------|:------------------|
-| **HunyuanVideo VAE**                | Latent Encoding/Decoding    |🤗 [HF](https://huggingface.co/tencent-ailab/HunyuanVideo/tree/main/vae) |
-| **HunyuanVideo VAE bf16**                | Latent Encoding/Decoding    |🤗 [HF ComfyUI](https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/vae/hunyuan_video_vae_bf16.safetensors?download=true) |
+| **HunyuanVideo VAE**                | Latent Encoding/Decoding    |🤗 [HF](https://huggingface.co/hunyuanvideo-community/HunyuanVideo/tree/main/vae) |
+| **HunyuanVideo VAE bf16**                | Latent Encoding/Decoding    |🤗 [HF ComfyUI](https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/tree/main/split_files/vae) |
 | **CLIP-ViT-L-14**                   | Text Conditioning  |🤗 [HF](https://huggingface.co/openai/clip-vit-large-patch14) |
-| **Qwen2.5-VL-7B**                   | Text Conditioning   |🤗 [HF](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) |
 | **Qwen2.5-VL-7B fp8 scaled**                   | Text Conditioning  |🤗 [HF ComfyUI](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/tree/main/split_files/text_encoders) |
 | **Qwen2.5-VL-7B bf16**                   | Text Conditioning   |🤗 [HF Kijai](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Qwen/Qwen2.5_7B_instruct_bf16.safetensors) |
 

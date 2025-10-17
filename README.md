@@ -32,10 +32,11 @@
 
 This project brings the state-of-the-art **Kandinsky 5.0 T2V Lite** text-to-video model into the ComfyUI ecosystem. Kandinsky 5 is a latent diffusion pipeline built on a Flow Matching and Diffusion Transformer (DiT) backbone, capable of generating high-quality video from text prompts.
 
-It leverages a powerful combination of **Qwen2.5-VL** and **CLIP** for text conditioning and the **HunyuanVideo 3D VAE** for latent space encoding, enabling a nuanced understanding of prompts and impressive visual results.
+It leverages a powerful combination of **Qwen2.5-VL** and **CLIP** for text conditioning and the **HunyuanVideo VAE** for latent space encoding, enabling a nuanced understanding of prompts and impressive visual results.
 
 <div align="center">
-  
+  <img width="80%" alt="workflow" src="https://github.com/user-attachments/assets/28c54b0e-d6b1-4ccd-9087-deed57457038" />
+
 </div>
   
 This custom node suite provides all the necessary tools to run the Kandinsky 5 pipeline natively in ComfyUI, including a custom sampler for its specific inference loop and efficient memory management to run on consumer-grade hardware.

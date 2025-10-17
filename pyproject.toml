@@ -1,0 +1,15 @@
+[project]
+name = "ComfyUI-Kandinsky"
+description = "Kandinsky 5 DiT. High-quality T2V with advanced text conditioning."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["tqdm","omegaconf","bitsandbytes"]
+
+[project.urls]
+Repository = "https://github.com/wildminder/ComfyUI-Kandinsky"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "wildai"
+DisplayName = "ComfyUI-Kandinsky"
+Icon = ""

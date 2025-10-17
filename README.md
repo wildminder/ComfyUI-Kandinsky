@@ -35,7 +35,7 @@ This project brings the state-of-the-art **Kandinsky 5.0 T2V Lite** text-to-vide
 It leverages a powerful combination of **Qwen2.5-VL** and **CLIP** for text conditioning and the **HunyuanVideo 3D VAE** for latent space encoding, enabling a nuanced understanding of prompts and impressive visual results.
 
 <div align="center">
-      
+  
 </div>
   
 This custom node suite provides all the necessary tools to run the Kandinsky 5 pipeline natively in ComfyUI, including a custom sampler for its specific inference loop and efficient memory management to run on consumer-grade hardware.
@@ -149,6 +149,31 @@ Video generation is computationally intensive. As a baseline, generating a 5-sec
 *   This node is released for research and development purposes. Please use it responsibly.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="center">══════════════════════════════════</p>
+
+Beyond the code, I believe in the power of community and continuous learning. I invite you to join the 'TokenDiff AI News' and 'TokenDiff Community Hub'
+
+<table border="0" align="center" cellspacing="10" cellpadding="0">
+  <tr>
+    <td align="center" valign="top">
+      <h4>TokenDiff AI News</h4>
+      <a href="https://t.me/TokenDiff">
+        <img width="50%" alt="tokendiff-tg-qw" src="https://github.com/user-attachments/assets/e29f6b3c-52e5-4150-8088-12163a2e1e78" />
+      </a>
+      <p><sub>🗞️ AI for every home, creativity for every mind!</sub></p>
+    </td>
+    <td align="center" valign="top">
+      <h4>TokenDiff Community Hub</h4>
+      <a href="https://t.me/TokenDiff_hub">
+        <img width="50%" alt="token_hub-tg-qr" src="https://github.com/user-attachments/assets/da544121-5f5b-4e3d-a3ef-02272535929e" />
+      </a>
+      <p><sub>💬 questions, help, and thoughtful discussion.</sub> </p>
+    </td>
+  </tr>
+</table>
+
+<p align="center">══════════════════════════════════</p>
 
 <!-- LICENSE -->
 ## License
